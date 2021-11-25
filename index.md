@@ -4,4 +4,4 @@ layout: default
 ---
 
 This is the content of my page
-# another chapter
+# another chapter {{page.title}}
