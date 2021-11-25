@@ -6,4 +6,4 @@ layout: default
 This is the content of my page
 # another chapter {{page.title}}
 
-## @@include[first.md](books/first.md)
+[erstes Buch](first.md)
