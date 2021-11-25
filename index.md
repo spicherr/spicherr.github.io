@@ -1,6 +1,6 @@
 ---
-title: My page
-layout: default
+title: Bücher Rezension
+
 ---
 
 # {{ page.title }}
