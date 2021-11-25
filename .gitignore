@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+/.idea/
+/files/
+/db_bck/
+/target/
+*.iml
