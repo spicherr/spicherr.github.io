@@ -1,6 +1,10 @@
-- title: "Nr 1"
+-
+  id: 1
+  title: "Nr 1"
   author: "herr sowieso"
 
-- title: "Nr 2"
+-
+  id: 2
+  title: "Nr 2"
   author: "frau sowieso"
 

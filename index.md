@@ -1,17 +1,18 @@
 ---
-title: Titelseite
-tag-line: test
+title: Bücher-Rezension
 layout: default
 ---
-
-This is the content of my page
-# another chapter {{page.title}}
+# Intro
+Lorem Ipsum
 
 [erstes Buch](books/first.md)
 
 # Bücher
     {% for item in site.data.books %}
-        <li> {{ item.title }} von {{ item.author }}</li>
+        <div>
+        <h1>{{ item.title }} von {{ item.author }}</h1>
+        <p>dddd</p>
+        </div>
 
 
     {% endfor %}
