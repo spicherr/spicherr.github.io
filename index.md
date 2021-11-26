@@ -11,6 +11,7 @@ This is the content of my page
 
 # Bücher
     {% for item in site.data.books %}
-        - {{ item.title }} (Author: {{ item.author }})
+        ## {{ item.title }} von {{ item.author }}
+
 
     {% endfor %}
