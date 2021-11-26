@@ -11,8 +11,7 @@ Lorem Ipsum
 
 # Bücher
 {% for item in site.data.books %}
-    <div>
-    <h1>{{ item.title }} von {{ item.author }}</h1>
-    <p>dddd</p>
-    </div>
+## {{ item.title }} von {{ item.author }}
+dddd
+
 {% endfor %}
