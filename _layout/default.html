@@ -6,17 +6,14 @@
 </head>
 <body>
 <h1>{{ page.title }}</h1>
-<nav>
-    <a href="/">Home</a>
-    <a href="/blog/">Blog</a>
-</nav>
-<figure>
-    <a href="http://jekyllrb.com">
-        <img src="logo.png" style="max-width: 200px;"
-             alt="Jekyll logo" />
-    </a>
-    <figcaption>This is the Jekyll logo</figcaption>
-</figure>
+<div>
+    {% for book in site.data.books %}
+    <div>
+        <h1>{{ book.title }}</h1>
+        <h1>{{ book.author }}</h1>
+    </div>
+    {% endfor %}
+</div>
 
 
 </body>
