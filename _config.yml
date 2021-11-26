@@ -1,7 +1,7 @@
 theme               : jekyll-theme-cayman
 layouts_dir         : _layouts
 data_dir            : _data
-includes_dir        : _includes
+includes_dir        : _books
 
 encoding            : "utf-8"
 markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
