@@ -13,6 +13,4 @@ Lorem Ipsum
         <h1>{{ item.title }} von {{ item.author }}</h1>
         <p>dddd</p>
         </div>
-
-
     {% endfor %}
