@@ -7,13 +7,13 @@ This is the content of my page
 # Intro
 Lorem Ipsum
 
-[erstes Buch](_books/buch_eins.md)
+[erstes Buch](_includes/buch_eins.md)
 
 # Bücher
 {% for item in site.data.books %}
 ## {{ item.title }} von {{ item.author }}
 <a href="books/{{ item.summary }}">dddd</a>
 
-{% include {{ item.summary }}.html %}
+{% include {{ item.summary }}.md %}
 
 {% endfor %}
