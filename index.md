@@ -14,6 +14,6 @@ Lorem Ipsum
 ## {{ item.title }} von {{ item.author }}
 <a href="books/{{ item.summary }}">dddd</a>
 
-{% include {{ item.summary }}.html %}
+{% include {{ item.summary }} %}
 
 {% endfor %}
