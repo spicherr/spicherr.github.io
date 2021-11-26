@@ -7,7 +7,7 @@ This is the content of my page
 # Intro
 Lorem Ipsum
 
-[erstes Buch](books/buch_eins.md)
+[erstes Buch](_books/buch_eins.md)
 
 # Bücher
 {% for item in site.data.books %}
