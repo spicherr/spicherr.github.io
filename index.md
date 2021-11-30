@@ -16,6 +16,7 @@ Lorem Ipsum
 ### von **{{ item.author }}**
 <a href="{{ item.summary }}">Buchbeschreibung</a>
 [Test](buch_eins.md)
+[Test zwei]({{ item.summary }})
 {% endfor %}
 
 
