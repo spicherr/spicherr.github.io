@@ -2,8 +2,10 @@
 title: Meine Bücher-Rezension
 layout: default
 ---
-# Intro
 {% include nav.html %}
+
+# Intro
+
 Lorem Ipsum
 [erstes Buch](_includes/buch_eins.md)
 # Bücher
