@@ -7,6 +7,7 @@ layout: default
     <a href="/">Home</a>
     <a href="/test/">Blog</a>
 </nav>
+{% include nav.html %}
 
 Lorem Ipsum
 [erstes Buch](_includes/buch_eins.md)
@@ -20,3 +21,4 @@ Lorem Ipsum
 {% endfor %}
 
 
+{% include footer.html %}
