@@ -3,12 +3,7 @@ title: Meine Bücher-Rezension
 layout: default
 ---
 # Intro
-<nav>
-    <a href="/">Home</a>
-    <a href="/test/">Blog</a>
-</nav>
 {% include nav.html %}
-
 Lorem Ipsum
 [erstes Buch](_includes/buch_eins.md)
 # Bücher
@@ -18,6 +13,10 @@ Lorem Ipsum
 <a href="{{ item.summary }}">Buchbeschreibung</a>
 [Test](buch_eins.md)
 [Test zwei]({{ item.summary }})
+
+{% include {{ item.summary }} %}
+
+
 {% endfor %}
 
 
