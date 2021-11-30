@@ -1,6 +1,6 @@
 ---
 title: Meine Bücher-Rezension
 layout: default
-permalink: /test/
+permalink: /test2/
 ---
 Buchbeschreibung
