@@ -8,6 +8,13 @@
 <nav>
     <a href="#">About</a>
 </nav>
+
+{% for item in site.data.books %}
+## {{ item.title }}
+### von **{{ item.author }}**
+<a href="books/{{ item.summary }}.html">Buchbeschreibung</a>
+{% endfor %}
+
 </body>
 <footer>
     Copyright by Leonie Zoe Spicher
