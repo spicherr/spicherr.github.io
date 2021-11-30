@@ -2,13 +2,9 @@
 title: Meine Bücher-Rezension
 layout: default
 ---
-<<<<<<< HEAD
 {% include nav.html %}
-
 # Intro
 
-=======
-# Intro
 <nav>
     <a href="/">Home</a>
     <a href="/test/">Blog</a>
