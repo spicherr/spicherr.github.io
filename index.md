@@ -11,7 +11,7 @@ Lorem Ipsum
 {% for item in site.data.books %}
 ## {{ item.title }}
 ### von **{{ item.author }}**
-<a href="books/{{ item.summary }}.html">Buchbeschreibung</a>
+<a href="books/{{ item.summary }}">Buchbeschreibung</a>
 {% endfor %}
 
 
