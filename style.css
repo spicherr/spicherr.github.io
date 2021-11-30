@@ -16,7 +16,7 @@ nav li {
 }
 
 nav li a {
-  display: block;
+  display: inline;
   padding: 8px;
   background-color: #dddddd;
 }
