@@ -2,8 +2,6 @@
 title: Meine Bücher-Rezension
 layout: default
 ---
-
-This is the content of my page
 # Intro
 Lorem Ipsum
 
@@ -12,6 +10,7 @@ Lorem Ipsum
 ## {{ item.title }}
 ### von **{{ item.author }}**
 <a href="books/{{ item.summary }}">Buchbeschreibung</a>
+[Test](_includes/buch_eins.md)
 {% endfor %}
 
 
