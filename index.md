@@ -15,8 +15,7 @@ layout: default
 </nav>
 {% include nav.html %}
 
->>>>>>> parent of d5d43f3... refactoring the includes
-Lorem Ipsum
+
 [erstes Buch](_includes/buch_eins.md)
 # Bücher
 {% for item in site.data.books %}
