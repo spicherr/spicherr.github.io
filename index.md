@@ -3,14 +3,6 @@ title: Meine Bücher-Rezension
 layout: default
 ---
 {% include nav.html %}
-# Intro
-
-<nav>
-    <a href="/">Home</a>
-    <a href="/test/">Blog</a>
-</nav>
-{% include nav.html %}
-
 
 [erstes Buch](_includes/buch_eins.md)
 # Bücher
