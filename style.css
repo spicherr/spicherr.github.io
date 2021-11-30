@@ -12,6 +12,7 @@ nav ul {
 
 nav li {
   float: left;
+  padding: 5px;
 }
 
 nav li a {
