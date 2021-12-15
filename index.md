@@ -25,13 +25,13 @@ layout: default
             <span class="badge bg-dark" style="float: right;">
 {% if item.bewertung == '5' %}
 &#9733; &#9733; &#9733; &#9733; &#9733;
-{% elseif item.bewertung == '4' %}
+{% elsif item.bewertung == '4' %}
 &#9733; &#9733; &#9733; &#9733; &#9734;
-{% elseif item.bewertung == '3' %}
+{% elsif item.bewertung == '3' %}
 &#9733; &#9733; &#9733; &#9734; &#9734;
-{% elseif item.bewertung == '2' %}
+{% elsif item.bewertung == '2' %}
 &#9733; &#9733; &#9734; &#9734; &#9734;
-{% elseif item.bewertung == '1' %}
+{% elsif item.bewertung == '1' %}
 &#9733; &#9734; &#9734; &#9734; &#9734;
 {% else%}
 &#9734; &#9734; &#9734; &#9734; &#9734;
