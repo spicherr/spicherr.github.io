@@ -15,18 +15,20 @@ layout: default
 {% endfor %}
 
 # Variante 2
-<div style="padding: 5px;">
+<div class="row row-cols-1 row-cols-md-2 g-4">
 {% for item in site.data.books %}
-<div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">{{ item.title }} <span class="badge bg-secondary" style="float: right;">{{ item.
-bewertung }}
-</span></h5>
-    <h6 class="card-subtitle mb-2 text-muted">von {{ item.author }} (Erscheinungsdatum: {{ item.datum }})</h6>
-    <p class="card-text">Intro text</p>
-    <a href="{{ item.summary }}" class="card-link">Beschreibung</a>
-    <a href="#" class="card-link">Rezension</a>
-  </div>
+<div class="col">
+    <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">{{ item.title }} <span class="badge bg-secondary" style="float: right;">{{ item.
+    bewertung }}
+    </span></h5>
+        <h6 class="card-subtitle mb-2 text-muted">von {{ item.author }} (Erscheinungsdatum: {{ item.datum }})</h6>
+        <p class="card-text">Intro text</p>
+        <a href="{{ item.summary }}" class="card-link">Beschreibung</a>
+        <a href="#" class="card-link">Rezension</a>
+      </div>
+    </div>
 </div>
 {% endfor %}
 </div>
