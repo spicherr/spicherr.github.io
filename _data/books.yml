@@ -2,7 +2,7 @@
   id: "buch_eins"
   title: "Nr 1"
   author: "herr sowieso"
-  summary: "/test/"
+  shorttext: "Beschreibung in ganz ganz wenigen Worten"
   datum: "15.05.2000"
   bewertung: 5
 
@@ -10,6 +10,7 @@
   id: 2
   title: "Nr 2"
   author: "frau sowieso"
+  shorttext: "Beschreibung in ganz ganz wenigen Worten"
   datum: "15.05.2000"
   bewertung: 5
 
@@ -17,5 +18,6 @@
   id: 3
   title: "Nr 3"
   author: "frau sowieso"
+  shorttext: "Beschreibung in ganz ganz wenigen Worten"
   datum: "15.02.2000"
   bewertung: 3

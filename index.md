@@ -10,7 +10,7 @@ layout: default
 ## {{ item.title }}
 ### von **{{ item.author }}**
 <a href="{{ item.summary }}">Buchbeschreibung</a>
-[Test](_includes/buch_eins.md)
+[Test](books/buch_eins.md)
 [Test zwei]({{ item.summary }})
 {% endfor %}
 
@@ -25,7 +25,8 @@ layout: default
     </span></h5>
         <h6 class="card-subtitle mb-2 text-muted"><span style="float: left;">von {{ item.author }}</span> <span style="float: right;"> {
 { item.datum }} </span></h6>
-        <p class="card-text">{% include_relative {{ item.id }}.md %}</p>
+        <p class="card-text">{{ item.shorttext }}</p>
+        <a href="{{ item.id }}" class="card-link">Beschreibung / Rezension</a>
       </div>
     </div>
 </div>
