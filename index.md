@@ -23,7 +23,7 @@ layout: default
         <h5 class="card-title">{{ item.title }} <span class="badge bg-secondary" style="float: right;">{{ item.
     bewertung }}
     </span></h5>
-        <h5 class="card-title">{{ item.title }} <span class="glyphicon glyphicon-star"></span></h5>
+        <h5 class="card-title">{{ item.title }} &#xe007; &#xe007; <span class="glyphicon glyphicon-star"></span></h5>
         <h6 class="card-subtitle mb-2 text-muted">
             <span style="float: left;">von {{ item.author }}</span> <span style="float: right;"> {{ item.datum }}</span>
         </h6>
