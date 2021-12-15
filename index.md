@@ -16,7 +16,7 @@ layout: default
 
 # Variante 2
 {% for item in site.data.books %}
-<div class="card" style="width: 18rem;">
+<div class="card" style="width: 18rem; margin: 5px;">
   <div class="card-body">
     <h5 class="card-title">{{ item.title }}</h5>
     <h6 class="card-subtitle mb-2 text-muted">{{ item.author }}</h6>
