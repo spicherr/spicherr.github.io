@@ -42,7 +42,7 @@ layout: default
             <span style="float: left;">von {{ item.author }}</span> <span style="float: right;"> {{ item.datum }}</span>
         </h6>
         <p class="card-text">{{ item.shorttext }}</p>
-        <a href="{{ item.link }}" class="btn btn-primary">Beschreibung / Rezension</a>
+        <a href="{{ item.link }}.md" class="btn btn-primary">Beschreibung / Rezension</a>
       </div>
     </div>
 </div>
