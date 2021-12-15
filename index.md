@@ -20,7 +20,14 @@ layout: default
 <div class="col">
     <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 18rem;">
       <div class="card-body">
-        <h5 class="card-title">{{ item.title }} <span class="badge bg-secondary" style="float: right;">&#9734;&#9734;&#9734;&#9734;&#9734;</span></h5>
+        <h5 class="card-title">
+            <span style="float: left;">{{ item.title }}</span>
+            <span class="badge bg-secondary" style="float: right;">&#9733;</span> 
+            <span class="badge bg-secondary" style="float: right;">&#9733;</span> 
+            <span class="badge bg-secondary" style="float: right;">&#9734;</span> 
+            <span class="badge bg-secondary" style="float: right;">&#9734;</span> 
+            <span class="badge bg-secondary" style="float: right;">&#9734;</span> 
+        </h5>
         <h6 class="card-subtitle mb-2 text-muted">
             <span style="float: left;">von {{ item.author }}</span> <span style="float: right;"> {{ item.datum }}</span>
         </h6>
