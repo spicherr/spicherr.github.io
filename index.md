@@ -15,8 +15,9 @@ layout: default
 {% endfor %}
 
 # Variante 2
+<div style="padding-bottom: 5px;">
 {% for item in site.data.books %}
-<div class="card" style="width: 18rem; margin: 5px;">
+<div class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">{{ item.title }} - {{ item.author }}</h5>
     <h6 class="card-subtitle mb-2 text-muted">{{ item.datum }}</h6>
@@ -26,6 +27,6 @@ layout: default
   </div>
 </div>
 {% endfor %}
-
+</div>
 
 {% include footer.html %}
