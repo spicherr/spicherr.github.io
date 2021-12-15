@@ -4,17 +4,7 @@ layout: default
 ---
 {% include nav.html %}
 
-[erstes Buch](_includes/buch_eins.md)
 # Bücher
-{% for item in site.data.books %}
-## {{ item.title }}
-### von **{{ item.author }}**
-<a href="{{ item.summary }}">Buchbeschreibung</a>
-[Test](buch_eins.md)
-[Test zwei]({{ item.summary }})
-{% endfor %}
-
-# Variante 2
 <div class="row row-cols-1 row-cols-md-4 g-4">
 {% for item in site.data.books %}
 <div class="col">
