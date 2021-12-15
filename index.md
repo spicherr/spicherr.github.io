@@ -10,7 +10,7 @@ layout: default
 ## {{ item.title }}
 ### von **{{ item.author }}**
 <a href="{{ item.summary }}">Buchbeschreibung</a>
-[Test](books/buch_eins.md)
+[Test](_includes/books/buch_eins.md)
 [Test zwei]({{ item.summary }})
 {% endfor %}
 
