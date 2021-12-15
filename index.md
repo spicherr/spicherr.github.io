@@ -17,7 +17,7 @@ layout: default
 # Variante 2
 <div style="padding-bottom: 5px;">
 {% for item in site.data.books %}
-<div class="card" style="width: 18rem;">
+<div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">{{ item.title }} <span class="badge bg-secondary" style="float: right;">{{ item.
 bewertung }}
