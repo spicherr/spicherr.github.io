@@ -6,6 +6,3 @@
 /db_bck/
 /target/
 *.iml
-/_site/
-Gemfile
-Gemfile.lock
