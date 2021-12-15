@@ -15,7 +15,7 @@ layout: default
 {% endfor %}
 
 # Variante 2
-<div class="row row-cols-1 row-cols-md-2 g-4">
+<div class="row row-cols-1 row-cols-md-4 g-4">
 {% for item in site.data.books %}
 <div class="col">
     <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 18rem;">
@@ -27,7 +27,7 @@ layout: default
             <span style="float: left;">von {{ item.author }}</span> <span style="float: right;"> {{ item.datum }}</span>
         </h6>
         <p class="card-text">{{ item.shorttext }}</p>
-        <a href="{{ item.id }}" class="card-link">Beschreibung / Rezension</a>
+        <a href="{{ item.id }}.md" class="btn btn-primary">Beschreibung / Rezension</a>
       </div>
     </div>
 </div>
