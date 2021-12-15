@@ -22,7 +22,21 @@ layout: default
       <div class="card-body">
         <h5 class="card-title">
             <span style="float: left;">{{ item.title }}</span>
-            <span class="badge bg-dark" style="float: right;">&#9733; &#9733; &#9733; &#9733; &#9733;</span> 
+            <span class="badge bg-dark" style="float: right;">
+{% if item.bewertung == 5 %}
+&#9733; &#9733; &#9733; &#9733; &#9733;
+{% elseif item.bewertung == 4 %}
+&#9733; &#9733; &#9733; &#9733; &#9734;
+{% elseif item.bewertung == 3 %}
+&#9733; &#9733; &#9733; &#9734; &#9734;
+{% elseif item.bewertung == 2 %}
+&#9733; &#9733; &#9734; &#9734; &#9734;
+{% elseif item.bewertung == 1 %}
+&#9733; &#9734; &#9734; &#9734; &#9734;
+{% elseif item.bewertung == 0 %}
+&#9734; &#9734; &#9734; &#9734; &#9734;
+{% endif %}
+            </span> 
         </h5>
         <h6 class="card-subtitle mb-2 text-muted">
             <span style="float: left;">von {{ item.author }}</span> <span style="float: right;"> {{ item.datum }}</span>
