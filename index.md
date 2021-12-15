@@ -15,7 +15,7 @@ layout: default
 {% endfor %}
 
 # Variante 2
-<div style="padding-bottom: 5px;">
+<div style="padding: 5px;">
 {% for item in site.data.books %}
 <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 18rem;">
   <div class="card-body">
