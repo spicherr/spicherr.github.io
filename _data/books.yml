@@ -3,9 +3,11 @@
   title: "Nr 1"
   author: "herr sowieso"
   summary: "/test/"
+  datum: "15.05.2000"
 
 -
   id: 2
   title: "Nr 2"
   author: "frau sowieso"
+  datum: "15.05.2000"
 
