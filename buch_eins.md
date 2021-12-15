@@ -1,7 +1,7 @@
 ---
 title: Meine Bücher-Rezension
 layout: book
-permalink: /test/
+permalink: /book1/
 ---
 Buchbeschreibung T
 
