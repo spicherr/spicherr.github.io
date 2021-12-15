@@ -4,10 +4,12 @@
   author: "herr sowieso"
   summary: "/test/"
   datum: "15.05.2000"
+  bewertung: 5
 
 -
   id: 2
   title: "Nr 2"
   author: "frau sowieso"
   datum: "15.05.2000"
+  bewertung: 5
 
