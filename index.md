@@ -23,8 +23,9 @@ layout: default
         <h5 class="card-title">{{ item.title }} <span class="badge bg-secondary" style="float: right;">{{ item.
     bewertung }}
     </span></h5>
-        <h6 class="card-subtitle mb-2 text-muted"><span style="float: left;">von {{ item.author }}</span> <span style="float: right;"> {
-{ item.datum }} </span></h6>
+        <h6 class="card-subtitle mb-2 text-muted">
+            <span style="float: left;">von {{ item.author }}</span> <span style="float: right;"> {{ item.datum }}</span>
+        </h6>
         <p class="card-text">{{ item.shorttext }}</p>
         <a href="{{ item.id }}" class="card-link">Beschreibung / Rezension</a>
       </div>
