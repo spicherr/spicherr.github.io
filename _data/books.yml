@@ -22,3 +22,11 @@
   shorttext: "Beschreibung in ganz ganz wenigen Worten"
   datum: "15.02.2000"
   bewertung: "3"
+
+-
+  id: 4
+  title: "Nr 4"
+  author: "frau sowieso"
+  shorttext: "Beschreibung in ganz ganz wenigen Worten"
+  datum: "15.02.2000"
+  bewertung: "0"
