@@ -23,17 +23,17 @@ layout: default
         <h5 class="card-title">
             <span style="float: left;">{{ item.title }}</span>
             <span class="badge bg-dark" style="float: right;">
-{% if item.bewertung == "5" %}
+{% if item.bewertung == '5' %}
 &#9733; &#9733; &#9733; &#9733; &#9733;
-{% elseif item.bewertung == "4" %}
+{% elseif item.bewertung == '4' %}
 &#9733; &#9733; &#9733; &#9733; &#9734;
-{% elseif item.bewertung == "3" %}
+{% elseif item.bewertung == '3' %}
 &#9733; &#9733; &#9733; &#9734; &#9734;
-{% elseif item.bewertung == "2" %}
+{% elseif item.bewertung == '2' %}
 &#9733; &#9733; &#9734; &#9734; &#9734;
-{% elseif item.bewertung == "1" %}
+{% elseif item.bewertung == '1' %}
 &#9733; &#9734; &#9734; &#9734; &#9734;
-{% elseif item.bewertung == "0" %}
+{% elseif item.bewertung == '0' %}
 &#9734; &#9734; &#9734; &#9734; &#9734;
 {% endif %}
             </span> 
