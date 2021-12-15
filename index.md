@@ -14,5 +14,18 @@ layout: default
 [Test zwei]({{ item.summary }})
 {% endfor %}
 
+# Variante 2
+{% for item in site.data.books %}
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">{{ item.title }}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">{{ item.author }}</h6>
+    <p class="card-text">Intro text</p>
+    <a href="{{ item.summary }}" class="card-link">Beschreibung</a>
+    <a href="#" class="card-link">Rezension</a>
+  </div>
+</div>
+{% endfor %}
+
 
 {% include footer.html %}
