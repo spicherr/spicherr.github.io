@@ -23,8 +23,9 @@ layout: default
         <h5 class="card-title">{{ item.title }} <span class="badge bg-secondary" style="float: right;">{{ item.
     bewertung }}
     </span></h5>
-        <h6 class="card-subtitle mb-2 text-muted">von {{ item.author }} (Erscheinungsdatum: {{ item.datum }})</h6>
-        <p class="card-text">Intro text</p>
+        <h6 class="card-subtitle mb-2 text-muted"><span style="float: left;">von {{ item.author }}</span> <span style="float: right;"> {
+{ item.datum }} </span></h6>
+        <p class="card-text">{% include_relative buch_eins.md %}</p>
         <a href="{{ item.summary }}" class="card-link">Beschreibung</a>
         <a href="#" class="card-link">Rezension</a>
       </div>
