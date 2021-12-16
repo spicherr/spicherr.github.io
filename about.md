@@ -8,6 +8,6 @@ permalink: about
 Wer bin ich
 
 
-<img src="img/me.jpg" width="40%" height="40%" class="mx-auto d-block">
+<img src="img/me.jpg" width="40%" height="40%" class="rounded">
 
 {% include footer.html %}
