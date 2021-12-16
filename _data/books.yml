@@ -4,7 +4,7 @@
   author: "herr sowieso"
   shorttext: "Beschreibung in ganz ganz wenigen Worten"
   datum: "15.05.2000"
-  bewertung: "5"
+  bewertung: 5
   link: "book1"
 
 -
@@ -13,7 +13,8 @@
   author: "frau sowieso"
   shorttext: "Beschreibung in ganz ganz wenigen Worten"
   datum: "15.05.2000"
-  bewertung: "5"
+  bewertung: 5
+  link: "book2"
 
 -
   id: 3
@@ -21,4 +22,4 @@
   author: "frau sowieso"
   shorttext: "Beschreibung in ganz ganz wenigen Worten"
   datum: "15.02.2000"
-  bewertung: "3"
+  bewertung: 3
