@@ -1,9 +1,10 @@
-title: Leonie's Bücher Rezensionen
+title               : Leonie's Bücher Rezensionen
 
 
 layouts_dir         : _layouts
 data_dir            : _data
 includes_dir        : _includes
+theme               : jekyll-theme-cayman
 
 encoding            : "utf-8"
 markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
