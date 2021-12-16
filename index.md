@@ -1,5 +1,5 @@
 ---
-title: Meine Bücher-Rezension
+title: Bücherliste
 layout: default
 ---
 {% include nav.html %}
